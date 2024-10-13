@@ -414,5 +414,11 @@
       </build>
     </profile>
   </profiles>
+<distributionManagement>
+    <repository>
+        <id>aws-codeartifact</id>
+        <url>https://<your-domain-name>-<your-domain-owner-id>.d.codeartifact.<aws-region>.amazonaws.com/maven/<your-repo-name>/</url>
+    </repository>
+</distributionManagement>
 
 </project>
